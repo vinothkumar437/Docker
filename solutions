@@ -1,3 +1,8 @@
 How to secure private docker registry on Red Hat Enterprise Linux 7 ?
 
 https://access.redhat.com/solutions/3175391
+
+
+Command "oc login" returning "Internal error occurred: unexpected response: 500"
+
+https://access.redhat.com/solutions/3968551
