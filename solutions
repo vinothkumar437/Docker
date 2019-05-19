@@ -10,3 +10,8 @@ https://access.redhat.com/solutions/3968551
 Image push/pull fails with "error: build error: Failed to push image: received unexpected HTTP status: 500 Internal Server Error"
 
 https://access.redhat.com/solutions/3467561
+
+
+OpenShift v3 Fails to push build image and report 500 error.
+
+https://access.redhat.com/solutions/2192901
