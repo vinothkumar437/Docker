@@ -15,3 +15,9 @@ https://access.redhat.com/solutions/3467561
 OpenShift v3 Fails to push build image and report 500 error.
 
 https://access.redhat.com/solutions/2192901
+
+
+Openshift 3.11 internal docker registry issue resolution
+-----------------------------------------------------------
+echo 'server=/default.svc/' > /etc/dnsmasq.d/node-dnsmasq2.conf
+systemctl restart dnsmasq.service 
