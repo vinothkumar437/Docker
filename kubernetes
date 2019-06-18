@@ -27,3 +27,8 @@ k8s.gcr.io/heapster-influxdb-amd64      v1.5.2              eb180058aee0        
 k8s.gcr.io/pause                        3.1                 da86e6ba6ca1        17 months ago       742 kB
 docker.io/simplyintricate/hexo          latest              7e7ec77ed35f        2 years ago         375 MB
 [root@kube-node ~]#
+
+
+
+reposync --repoid=kubernetes --download_path=/root/ --downloadcomps --download-metadata  --allow-path-traversal
+
