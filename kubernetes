@@ -32,3 +32,7 @@ docker.io/simplyintricate/hexo          latest              7e7ec77ed35f        
 
 reposync --repoid=kubernetes --download_path=/root/ --downloadcomps --download-metadata  --allow-path-traversal
 
+
+weave net offline
+
+curl -o weave.yaml https://cloud.weave.works/k8s/v1.8/net.yaml
