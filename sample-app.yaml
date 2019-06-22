@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: hexo-deployment
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: hexo-app
+    spec:
+      containers:
+      - name: hexo-container
+        image: simplyintricate/hexo
+        ports:
+        - containerPort: 80
