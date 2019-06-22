@@ -1,0 +1,14 @@
+cat <<EOF >  /etc/sysctl.d/k8s.conf
+net.bridge.bridge-nf-call-ip6tables = 1
+net.bridge.bridge-nf-call-iptables = 1
+EOF
+
+sysctl --system
+
+
+vim /usr/lib/systemd/system/kubelet.service.d/10-kubeadm.conf
+
+Environment="cgroup-driver=systemd/cgroup-driver=cgroupfs"
+
+
+kubeadm init --pod-network-cidr=10.105.40.0/16 --apiserver-advertise-address=192.168.1.121
