@@ -36,3 +36,6 @@ reposync --repoid=kubernetes --download_path=/root/ --downloadcomps --download-m
 weave net offline
 
 curl -o weave.yaml https://cloud.weave.works/k8s/v1.8/net.yaml
+
+
+https://github.com/yeasy/ansible-playbooks
