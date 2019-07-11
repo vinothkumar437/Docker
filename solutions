@@ -21,3 +21,7 @@ Openshift 3.11 internal docker registry issue resolution
 -----------------------------------------------------------
 echo 'server=/default.svc/' > /etc/dnsmasq.d/node-dnsmasq2.conf
 systemctl restart dnsmasq.service 
+
+
+
+https://www.webslesson.info/2017/04/multiple-select-option-by-using-bootstrap-select-plugin-in-php-ajax.html
