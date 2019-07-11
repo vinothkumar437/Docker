@@ -53,5 +53,6 @@ $("button").click(function(){
 </script>
 
 quay.io
+Accessing Red Hat Quay (formerly Quay Enterprise) without a CoreOS login
 
 https://access.redhat.com/solutions/3533201
