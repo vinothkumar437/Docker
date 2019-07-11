@@ -25,3 +25,29 @@ systemctl restart dnsmasq.service
 
 
 https://www.webslesson.info/2017/04/multiple-select-option-by-using-bootstrap-select-plugin-in-php-ajax.html
+
+
+
+$(document).ready(function(){
+var optionText;
+
+var flavor=$("#flavor").val();
+
+$('#sel').on('change',function(event){
+        event.preventDefault();
+        optionText = $("#sel option:selected").text();
+    });
+
+$("button").click(function(){
+    $.post("connection.php",
+    {
+      name: optiontext,
+      city: flavor
+    },
+    function(data,status){
+     $("#result").html(data);
+      alert("Data: " + data + "\nStatus: " + status);
+    });
+  });
+  });
+</script
